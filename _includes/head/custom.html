@@ -1,0 +1,8 @@
+<!-- Theme toggle script - loads early to prevent flash -->
+<script>
+  (function() {
+    const theme = localStorage.getItem('theme-preference') ||
+      (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>

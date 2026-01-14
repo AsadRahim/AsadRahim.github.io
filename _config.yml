@@ -1,0 +1,106 @@
+# Site Settings
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+
+title: "Muhammad Asad Rahim"
+subtitle: "Full Stack Developer & AI Engineer"
+name: "Muhammad Asad Rahim"
+description: "AI & Full Stack Python Developer | LLM/RAG Systems Expert | Cloud Solutions Architect"
+url: "https://asadrahim.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Theme skin - we'll override with dark/light toggle
+minimal_mistakes_skin: "dark"
+
+# Site Author
+author:
+  name: "Muhammad Asad Rahim"
+  avatar: "/assets/images/profile.jpg"
+  bio: "Full Stack Developer & AI Engineer with 5+ years experience building intelligent systems"
+  location: "Lahore, Pakistan"
+  email: "asadrahim32@gmail.com"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/AsadRahim"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/m-asadrahim/"
+    - label: "Upwork"
+      icon: "fas fa-fw fa-briefcase"
+      url: "https://www.upwork.com/freelancers/asadr14"
+
+# Reading Files
+include:
+  - _pages
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-include-cache
+  - jekyll-sitemap
+
+# Pagination
+paginate: 5
+paginate_path: /page:num/
+
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      classes: wide
+  # Home
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - .gitignore
+
+# Analytics (optional - add your tracking ID)
+# analytics:
+#   provider: "google-gtag"
+#   google:
+#     tracking_id: "YOUR-TRACKING-ID"
+
+# Comments (optional)
+# comments:
+#   provider: "disqus"
+#   disqus:
+#     shortname: "your-shortname"
+
+# Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/AsadRahim"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/m-asadrahim/"

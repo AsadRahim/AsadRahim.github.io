@@ -1,0 +1,16 @@
+{% if site.footer_scripts %}
+  {% for script in site.footer_scripts %}
+    <script src="{{ script | relative_url }}"></script>
+  {% endfor %}
+{% else %}
+  <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
+{% endif %}
+
+<!-- Theme toggle script -->
+<script src="{{ '/assets/js/theme-toggle.js' | relative_url }}"></script>
+
+{% if site.search == true %}
+  <script src="{{ '/assets/js/lunr/lunr.min.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/lunr/lunr-store.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/lunr/lunr-en.js' | relative_url }}"></script>
+{% endif %}
