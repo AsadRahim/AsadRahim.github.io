@@ -8,16 +8,16 @@ classes: wide
 
 # Projects & Portfolio
 
-A showcase of my work in AI engineering, full-stack development, and cloud solutions.
+A showcase of my work in AI engineering, full-stack development, software architecture, and cloud solutions.
 
 ---
 
 ## AI & LLM Projects
 
 <div class="project-card">
-  <h3 class="project-card__title">MCP Server for LLM Orchestration</h3>
+  <h3 class="project-card__title">Model Context Protocol Server for LLM Orchestration</h3>
   <p class="project-card__description">
-    Developed a Multi-Model Communication Protocol (MCP) server to route queries dynamically between LLMs based on latency, cost, and task type. The system intelligently selects the optimal model (GPT-3, GPT-4, Claude) for each request.
+    Developed a Model Context Protocol (MCP) server for LLM integrations and dynamic routing based on latency, cost, and task type. The system selects the optimal model (GPT-3, GPT-4, Claude) for each request.
   </p>
   <p><strong>Key Features:</strong></p>
   <ul>
@@ -31,6 +31,7 @@ A showcase of my work in AI engineering, full-stack development, and cloud solut
     <span class="project-card__tech-tag">Python</span>
     <span class="project-card__tech-tag">FastAPI</span>
     <span class="project-card__tech-tag">FastMCP</span>
+    <span class="project-card__tech-tag">Model Context Protocol</span>
     <span class="project-card__tech-tag">Docker</span>
     <span class="project-card__tech-tag">Kubernetes</span>
     <span class="project-card__tech-tag">AWS</span>
@@ -120,7 +121,7 @@ A showcase of my work in AI engineering, full-stack development, and cloud solut
   <div class="testimonial" style="margin-top: 1rem;">
     <p class="testimonial__text">"I hired Asad as a full stack developer and his work was highly satisfactory. The tool we developed involved complex integrations but he was able to manage them in time. I cannot recommend him enough."</p>
     <p class="testimonial__author">Mohsin Z.</p>
-    <p class="testimonial__role">Project Manager (Verified on Upwork, Nov 2021)</p>
+    <p class="testimonial__role">Project Manager (Verified on Upwork, <time datetime="2021-11">November 2021</time>)</p>
   </div>
   <div class="project-card__tech">
     <span class="project-card__tech-tag">Python</span>

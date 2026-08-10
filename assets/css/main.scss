@@ -289,22 +289,72 @@ blockquote {
   }
 
   &__provider {
-    color: var(--text-muted);
+    color: var(--text-muted) !important;
     font-size: 0.9rem;
   }
 
+  &__type {
+    color: var(--text-muted) !important;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+  }
+
   &__date {
-    color: var(--text-muted);
+    color: var(--text-muted) !important;
     font-size: 0.85rem;
   }
 
-  &__link {
+  &__platform {
+    color: var(--text-muted);
+    margin-left: 0.25rem;
+  }
+
+  &__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+  }
+
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
     margin-top: 0.5rem;
 
     a {
       font-size: 0.85rem;
+      font-weight: 600;
     }
   }
+}
+
+.credential-highlight {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  box-shadow: var(--card-shadow);
+  padding: 1.25rem;
+
+  &__title {
+    font-size: 1.05rem !important;
+    margin: 0 0 0.5rem;
+  }
+
+  &__provider,
+  &__date {
+    color: var(--text-muted) !important;
+    font-size: 0.85rem !important;
+    margin: 0.25rem 0;
+  }
+}
+
+.skill-category__evidence {
+  color: var(--text-muted) !important;
+  font-size: 0.85rem !important;
+  margin-top: 0.75rem;
 }
 
 // Project Cards
@@ -385,9 +435,31 @@ blockquote {
   }
 
   &__date {
-    color: var(--text-muted);
+    color: var(--text-muted) !important;
     font-size: 0.9rem;
   }
+}
+
+// Semantic date ranges and automatically calculated durations
+.date-range {
+  white-space: normal;
+
+  &__separator {
+    margin: 0 0.2em;
+  }
+
+  &__duration {
+    white-space: nowrap;
+
+    &:not(:empty) {
+      margin-left: 0.3em;
+    }
+  }
+}
+
+.resume-meta {
+  color: var(--text-muted) !important;
+  margin-top: -0.25rem;
 }
 
 // Buttons

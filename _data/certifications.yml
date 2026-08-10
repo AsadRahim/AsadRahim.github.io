@@ -1,0 +1,121 @@
+- title: "Software Design and Architecture"
+  provider: "University of Alberta"
+  issued: "2026-08-02"
+  credential_type: "Specialization Certificate"
+  featured: true
+  credential_id: "6BDEC1ZB5UIC"
+  certificate: "/assets/files/certificates/software-design-and-architecture-6BDEC1ZB5UIC.pdf"
+  verify_url: "https://coursera.org/verify/specialization/6BDEC1ZB5UIC"
+  tags:
+    - Software Design
+    - Software Architecture
+    - Design Patterns
+    - Service-Oriented Architecture
+
+- title: "Service-Oriented Architecture"
+  provider: "University of Alberta"
+  issued: "2026-08-02"
+  credential_id: "R7QIAH5HZ9TI"
+  certificate: "/assets/files/certificates/service-oriented-architecture-R7QIAH5HZ9TI.pdf"
+  verify_url: "https://coursera.org/verify/R7QIAH5HZ9TI"
+  tags:
+    - Service-Oriented Architecture
+    - Distributed Systems
+    - Software Design
+
+- title: "Software Architecture"
+  provider: "University of Alberta"
+  issued: "2026-07-27"
+  credential_id: "4EFPXFH6L50K"
+  certificate: "/assets/files/certificates/software-architecture-4EFPXFH6L50K.pdf"
+  verify_url: "https://coursera.org/verify/4EFPXFH6L50K"
+  tags:
+    - Software Architecture
+    - System Design
+
+- title: "Design Patterns"
+  provider: "University of Alberta"
+  issued: "2026-07-27"
+  credential_id: "VXMWFKQKOP57"
+  certificate: "/assets/files/certificates/design-patterns-VXMWFKQKOP57.pdf"
+  verify_url: "https://coursera.org/verify/VXMWFKQKOP57"
+  tags:
+    - Design Patterns
+    - Object-Oriented Design
+
+- title: "Programming with JavaScript"
+  provider: "Meta"
+  issued: "2026-07-08"
+  credential_id: "POPZ05Y01DLJ"
+  featured: true
+  certificate: "/assets/files/certificates/programming-with-javascript-POPZ05Y01DLJ.pdf"
+  verify_url: "https://coursera.org/verify/POPZ05Y01DLJ"
+  tags:
+    - JavaScript
+    - Web Development
+
+- title: "Data Structures and Algorithms: Merge Sort"
+  provider: "Scrimba"
+  issued: "2026-06-29"
+  credential_id: "5952NPRU3X7H"
+  certificate: "/assets/files/certificates/data-structures-algorithms-merge-sort-5952NPRU3X7H.pdf"
+  verify_url: "https://coursera.org/verify/5952NPRU3X7H"
+  tags:
+    - Data Structures
+    - Algorithms
+    - Merge Sort
+
+- title: "What's new in React 19?"
+  provider: "Scrimba"
+  issued: "2026-01-14"
+  credential_id: "Z2XS4IR6UU8B"
+  certificate: "/assets/files/certificates/whats-new-in-react-19-Z2XS4IR6UU8B.pdf"
+  verify_url: "https://coursera.org/verify/Z2XS4IR6UU8B"
+  tags:
+    - React 19
+    - Frontend Development
+
+- title: "Develop Generative AI Applications: Get Started"
+  provider: "IBM"
+  issued: "2025-12-03"
+  credential_id: "P0CME8E4FGUN"
+  featured: true
+  certificate: "/assets/files/certificates/develop-generative-ai-applications-P0CME8E4FGUN.pdf"
+  verify_url: "https://coursera.org/verify/P0CME8E4FGUN"
+  tags:
+    - Generative AI
+    - LLM
+    - AI Applications
+
+- title: "Object-Oriented Design"
+  provider: "University of Alberta"
+  issued: "2025-12-03"
+  credential_id: "7AJ58JVVYIO5"
+  certificate: "/assets/files/certificates/object-oriented-design-7AJ58JVVYIO5.pdf"
+  verify_url: "https://coursera.org/verify/7AJ58JVVYIO5"
+  tags:
+    - Object-Oriented Design
+    - Software Design
+
+- title: "Model Context Protocol (MCP) Mastery"
+  provider: "Fractal Analytics"
+  issued: "2025-10-28"
+  credential_id: "C8XMPTKB61QW"
+  featured: true
+  certificate: "/assets/files/certificates/model-context-protocol-mastery-C8XMPTKB61QW.pdf"
+  verify_url: "https://coursera.org/verify/C8XMPTKB61QW"
+  tags:
+    - Model Context Protocol
+    - AI Engineering
+    - LLM
+
+- title: "Advanced Prompt Engineering for Everyone"
+  provider: "Vanderbilt University"
+  issued: "2025-10-19"
+  credential_id: "AO510SI5HAPV"
+  certificate: "/assets/files/certificates/advanced-prompt-engineering-for-everyone-AO510SI5HAPV.pdf"
+  verify_url: "https://coursera.org/verify/AO510SI5HAPV"
+  tags:
+    - Prompt Engineering
+    - Generative AI
+    - LLM

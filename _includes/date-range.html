@@ -1,0 +1,21 @@
+{% assign start_value = include.start | append: "-01" %}
+{% unless include.end == "present" %}
+  {% assign end_value = include.end | append: "-01" %}
+{% endunless %}
+<span class="date-range">
+  <time datetime="{{ include.start }}">{{ start_value | date: "%B %Y" }}</time>
+  <span class="date-range__separator" aria-hidden="true">–</span><span class="screen-reader-text"> to </span>
+  {% if include.end == "present" %}
+    <span class="date-range__present">Present</span>
+  {% else %}
+    <time datetime="{{ include.end }}">{{ end_value | date: "%B %Y" }}</time>
+  {% endif %}
+  {% unless include.duration == false %}
+    <span
+      class="date-range__duration"
+      data-date-duration
+      data-start-date="{{ include.start }}"
+      {% unless include.end == "present" %}data-end-date="{{ include.end }}"{% endunless %}
+    ></span>
+  {% endunless %}
+</span>

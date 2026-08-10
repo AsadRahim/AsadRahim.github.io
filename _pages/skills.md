@@ -8,7 +8,7 @@ classes: wide
 
 # Skills & Technologies
 
-A comprehensive overview of my technical expertise across AI/ML, full-stack development, cloud platforms, and DevOps.
+A comprehensive overview of my technical expertise across AI/ML, full-stack development, software architecture, cloud platforms, and DevOps.
 
 ---
 
@@ -61,13 +61,14 @@ A comprehensive overview of my technical expertise across AI/ML, full-stack deve
 </div>
 
 <div class="skill-category">
-  <h3>Multi-modal & Orchestration</h3>
+  <h3>AI Orchestration & Prompt Engineering</h3>
   <div class="skill-tags">
     <span class="skill-tag">CLIP</span>
-    <span class="skill-tag">MCP Servers</span>
+    <span class="skill-tag">Model Context Protocol (MCP)</span>
     <span class="skill-tag">LLM Routing</span>
     <span class="skill-tag">Prompt Chaining</span>
-    <span class="skill-tag">Prompt Engineering</span>
+    <span class="skill-tag">Advanced Prompt Engineering</span>
+    <span class="skill-tag">Generative AI Applications</span>
     <span class="skill-tag">LLM Benchmarking</span>
   </div>
 </div>
@@ -90,7 +91,7 @@ A comprehensive overview of my technical expertise across AI/ML, full-stack deve
 <div class="skill-category">
   <h3>Frontend Frameworks</h3>
   <div class="skill-tags">
-    <span class="skill-tag">React.js</span>
+    <span class="skill-tag">React.js / React 19</span>
     <span class="skill-tag">Next.js</span>
     <span class="skill-tag">Vue.js</span>
   </div>
@@ -103,6 +104,33 @@ A comprehensive overview of my technical expertise across AI/ML, full-stack deve
     <span class="skill-tag">Server-Sent Events (SSE)</span>
   </div>
 </div>
+
+---
+
+## Software Architecture & Computer Science
+
+<div class="skill-category">
+  <h3>Architecture & Design</h3>
+  <div class="skill-tags">
+    <span class="skill-tag">Software Architecture</span>
+    <span class="skill-tag">Service-Oriented Architecture</span>
+    <span class="skill-tag">Object-Oriented Design</span>
+    <span class="skill-tag">Design Patterns</span>
+    <span class="skill-tag">Reusable Software Design</span>
+  </div>
+  <p class="skill-category__evidence">Supported by the University of Alberta's four-course Software Design and Architecture specialization.</p>
+</div>
+
+<div class="skill-category">
+  <h3>Computer Science Foundations</h3>
+  <div class="skill-tags">
+    <span class="skill-tag">Data Structures</span>
+    <span class="skill-tag">Algorithms</span>
+    <span class="skill-tag">Merge Sort</span>
+  </div>
+</div>
+
+<p><a href="{{ '/certifications/' | relative_url }}">View the supporting certificates and verification links</a>.</p>
 
 ---
 
@@ -251,6 +279,7 @@ A comprehensive overview of my technical expertise across AI/ML, full-stack deve
 
 - **Web Development** - Full-stack applications, APIs, and microservices
 - **AI/ML Solutions** - RAG systems, LLM integrations, custom AI pipelines
+- **Software Architecture** - Service design, reusable patterns, and architecture reviews
 - **Cloud Architecture** - AWS/GCP infrastructure design and optimization
 - **DevOps Engineering** - CI/CD pipelines, containerization, monitoring
 - **Data Engineering** - ETL pipelines, data warehousing, analytics

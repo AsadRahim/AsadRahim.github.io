@@ -8,7 +8,7 @@ classes: wide
 
 # Muhammad Asad Rahim
 
-**Full Stack Developer & AI Engineer | FastAPI/Flask | AWS/GCP | Docker/K8s | CI/CD | LLM/RAG Specialist**
+**Full Stack Developer & AI Engineer | Software Architecture | FastAPI/Flask | AWS/GCP | LLM/RAG & MCP**
 
 <p>
   <a href="/assets/files/resume.pdf" class="btn btn--primary" download>Download PDF Resume</a>
@@ -19,7 +19,7 @@ classes: wide
 
 ## Professional Summary
 
-Full Stack Python & AI Developer with 5+ years of experience building scalable backend systems and advanced AI solutions. Expert in Python, Flask, FastAPI, and cloud platforms (AWS, GCP). Skilled in database optimization, data pipelines, and API design. Focused on AI/ML orchestration with RAG architectures, LLM integration (LangChain, OpenAI, Claude), and MCP server design. Proven leader in system migrations, performance tuning, and deploying AI-driven solutions with Docker/Kubernetes.
+Full Stack Python & AI Developer with 5+ years of experience building scalable backend systems and advanced AI solutions. Expert in Python, Flask, FastAPI, and cloud platforms (AWS, GCP), with practical experience in database optimization, data pipelines, and API design. Focused on RAG architectures, LLM integrations, Model Context Protocol (MCP), and production deployment with Docker/Kubernetes. Completed the University of Alberta's Software Design and Architecture specialization, covering object-oriented design, design patterns, software architecture, and service-oriented architecture.
 
 ---
 
@@ -28,27 +28,27 @@ Full Stack Python & AI Developer with 5+ years of experience building scalable b
 - **40% API Performance Improvement** through systematic optimization
 - **Enterprise RAG Implementation** improving LLM accuracy
 - **Cloud Migration Leadership** enhancing system reliability
-- **Best Employee of the Year** - LinkedMatrix (Feb 2023)
+- **Best Employee of the Year** - LinkedMatrix (<time datetime="2023-02">February 2023</time>)
 
 ---
 
 ## Work Experience
 
 ### Full Stack Developer & AI Engineer
-**Freelance** | September 2020 - Present (5+ years)
+<p class="resume-meta"><strong>Freelance</strong> <span aria-hidden="true">|</span> {% include date-range.html start="2020-09" end="present" %}</p>
 
 *Focus: AI Engineering & LLM Systems*
 
 - Built Vector RAG systems using dense retrieval (Pinecone) and hybrid search strategies to optimize context relevance for LLMs
 - Designed Graph RAG solutions leveraging knowledge graphs (Neo4j, AWS Neptune) to enhance LLM reasoning
-- Developed Multi-Model Communication Protocol (MCP) server to route queries between LLMs (GPT-4, Claude, LangChain)
+- Developed Model Context Protocol (MCP) server integrations with dynamic routing between LLMs (GPT-4, Claude, LangChain)
 - Built custom tooling for prompt chaining, LLM benchmarking, and audit logging
 - Deployed containerized services (Docker/K8s) on AWS/GCP with autoscaling and monitoring (Grafana, Prometheus)
 
 ---
 
 ### Back End Developer
-**Pivony** (US-based, Remote) | December 2023 - August 2024 (9 months)
+<p class="resume-meta"><strong>Pivony</strong> (US-based, Remote) <span aria-hidden="true">|</span> {% include date-range.html start="2023-12" end="2024-08" %}</p>
 
 - Led migration of entire API service to new design using Python and AWS DynamoDB
 - Developed data pipelines using AWS EC2, AWS Glue, and Pandas
@@ -59,19 +59,19 @@ Full Stack Python & AI Developer with 5+ years of experience building scalable b
 ---
 
 ### Full Stack Developer & Team Lead
-**Linked Matrix International** | May 2020 - December 2023 (3 years 8 months)
+<p class="resume-meta"><strong>Linked Matrix International</strong> <span aria-hidden="true">|</span> {% include date-range.html start="2020-05" end="2023-12" %}</p>
 
 - Implemented dynamic interfaces using Vue.js, React, and Next.js
 - Demonstrated expertise in database design with MySQL, PostgreSQL, MongoDB, and Snowflake
 - Applied cloud computing knowledge in AWS and GCP for scalable solutions
 - Utilized AWS services: EC2, S3, Lambda, RDS
 - K8s deployments with GitHub Actions, CI/CD, and Helm charts
-- **Award: Best Employee of The Year (February 2023)**
+- **Award: Best Employee of the Year (<time datetime="2023-02">February 2023</time>)**
 
 ---
 
 ### Associate Software Engineer
-**Orange Lynx IT** | May 2019 - September 2020
+<p class="resume-meta"><strong>Orange Lynx IT</strong> <span aria-hidden="true">|</span> {% include date-range.html start="2019-05" end="2020-09" %}</p>
 
 - Full stack development on social media app 'Yakbun'
 - VueJs frontend + PHP Laravel backend
@@ -84,7 +84,7 @@ Full Stack Python & AI Developer with 5+ years of experience building scalable b
 
 **University of Engineering and Technology, Lahore**
 Bachelor of Science in Computer Science
-*September 2016 - September 2020*
+<p><em>{% include date-range.html start="2016-09" end="2020-09" duration=false %}</em></p>
 **CGPA: 3.48/4.00**
 
 ---
@@ -92,12 +92,15 @@ Bachelor of Science in Computer Science
 ## Technical Skills
 
 ### AI/ML & LLM
-RAG (Vector/Graph), LangChain, LLM Orchestration, Knowledge Graphs (Neo4j), Prompt Engineering, OpenAI, Claude, GPT-4, MCP Servers
+RAG (Vector/Graph), LangChain, LLM Orchestration, Knowledge Graphs (Neo4j), Advanced Prompt Engineering, Generative AI Applications, OpenAI, Claude, GPT-4, Model Context Protocol (MCP)
 
 ### Web Development
 **Backend:** FastAPI, Flask, Django, FastMCP
-**Frontend:** React.js, Next.js, Vue.js
+**Frontend:** JavaScript, React.js/React 19, Next.js, Vue.js
 **Real-time:** WebSockets, SSE
+
+### Software Architecture & CS Fundamentals
+Software Architecture, Service-Oriented Architecture, Object-Oriented Design, Design Patterns, Reusable Software Design, Data Structures, Algorithms
 
 ### Databases
 **SQL:** PostgreSQL, MySQL
@@ -119,11 +122,26 @@ Snowflake, Databricks, dbt, Fivetran, Pandas, AWS Glue, RAY
 
 ## Certifications
 
-| Certification | Provider | Year |
-|---------------|----------|------|
-| Develop Generative AI Applications: Get Started | IBM | 2025 |
-| Object-Oriented Design | University of Alberta | 2025 |
-| Advanced Prompt Engineering | Coursera | 2025 |
+<table>
+  <thead>
+    <tr>
+      <th>Certification</th>
+      <th>Provider</th>
+      <th>Issued</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for certificate in site.data.certifications %}
+      <tr>
+        <td><a href="{{ certificate.certificate | relative_url }}">{{ certificate.title }}</a></td>
+        <td>{{ certificate.provider }}</td>
+        <td><time datetime="{{ certificate.issued }}">{{ certificate.issued | date: "%B %-d, %Y" }}</time></td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+[View credential IDs and Coursera verification links]({{ '/certifications/' | relative_url }}).
 
 ---
 

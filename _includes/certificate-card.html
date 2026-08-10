@@ -1,0 +1,27 @@
+{% assign certificate = include.certificate %}
+<article class="cert-card" id="credential-{{ certificate.credential_id | downcase }}">
+  <div class="cert-card__icon" aria-hidden="true">
+    <i class="fas fa-certificate"></i>
+  </div>
+  <div class="cert-card__content">
+    <h3 class="cert-card__title">{{ certificate.title }}</h3>
+    <p class="cert-card__provider">
+      <strong>{{ certificate.provider }}</strong>
+      <span class="cert-card__platform">via Coursera</span>
+    </p>
+    <p class="cert-card__type">{{ certificate.credential_type | default: "Course Certificate" }}</p>
+    <p class="cert-card__date">
+      Issued: <time datetime="{{ certificate.issued }}">{{ certificate.issued | date: "%B %-d, %Y" }}</time>
+    </p>
+    <p>Credential ID: <code>{{ certificate.credential_id }}</code></p>
+    <div class="cert-card__tags">
+      {% for tag in certificate.tags %}
+        <span class="skill-tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    <div class="cert-card__actions">
+      <a href="{{ certificate.certificate | relative_url }}" target="_blank" rel="noopener noreferrer">View certificate</a>
+      <a href="{{ certificate.verify_url }}" target="_blank" rel="noopener noreferrer">Verify on Coursera</a>
+    </div>
+  </div>
+</article>

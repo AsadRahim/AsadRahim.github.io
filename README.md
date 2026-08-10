@@ -9,7 +9,8 @@ Personal portfolio website built with Jekyll and hosted on GitHub Pages.
 - Dark/Light mode toggle with localStorage persistence
 - Responsive design using Minimal Mistakes theme
 - Comprehensive portfolio showcase
-- Skills & certifications pages
+- Skills page aligned with verified professional development
+- Data-driven certificate catalog with original PDFs and Coursera verification links
 - Downloadable resume
 
 ## Pages
